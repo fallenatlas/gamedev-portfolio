@@ -5,11 +5,11 @@
       </div>
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
-        <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
+        <div @click="$emit('close')" class="dialog-close"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
+          <a @click="$emit('close')" class="dialog-close-button">Back</a>
         </div>
         </div>
       </div>
@@ -74,8 +74,8 @@ h1.dialog-title {
 }
 
 .dialog-content {
-  background-color: #fcfcfc;
-  color: #696969;
+  background-color: #232323;
+  color: #eaeaea;
 }
 .dialog-close {
   position: absolute;
@@ -84,14 +84,29 @@ h1.dialog-title {
   cursor:pointer;
   font-size: 1.2em;
   font-weight: 100;
+  opacity: 0.6;
 }
 .dialog-close:hover {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .dialog-bottom {
   text-align: center;
 }
+
+a {
+  color: #eaeaea; /*close button default color*/
+  text-decoration: underline;
+  opacity: 0.6;
+}
+a:hover{
+/*close button hover color*/
+  opacity: 1;
+}
+/*
+a:hover, .router-link-exact-active {
+  opacity: 0.6; 
+}*/
 
 a.dialog-close-button {
   cursor:pointer;
@@ -105,7 +120,7 @@ a.dialog-close-button {
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 40px;
-    max-width: 1000px;
+    max-width: 1200px;
   }
 
   h1.dialog-title {

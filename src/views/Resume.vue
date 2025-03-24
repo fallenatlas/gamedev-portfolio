@@ -142,7 +142,7 @@ h4 {
 }
 
 .paragraph {
-  max-width: 700px;
+  max-width: 640px;
 }
 
 .download-link {

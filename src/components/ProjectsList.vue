@@ -105,9 +105,9 @@ filter: brightness(120%);
 
 @media only screen and (min-width: 620px){
   .projects-list {
-    max-width: 900px;
+    max-width: 1050px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(250px, auto);
   }

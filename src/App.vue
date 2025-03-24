@@ -63,11 +63,12 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: @textColor;
+  color: @highlightTextColor;
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 1;
 }
 a:hover, .router-link-exact-active {
+  color: @highlightTextHoverColor;
   opacity: 1;
 }
 
@@ -92,13 +93,17 @@ h1 {
   }
 
   h1 {
-    margin-top: 0.67em;
-    margin-bottom: 80px;
+    margin-top: 1.0em;
+    margin-bottom: 60px;
     line-height: 0.7em;
   }
 
   .main {
-    padding: 0px 40px 40px 180px;
+    //width: 100%;
+    //horizontal-align: middle;
+    //padding: 0px 40px 40px 180px;
+    display: table;
+    margin: 0 auto;
   }
 
   .main, .header, .footer {

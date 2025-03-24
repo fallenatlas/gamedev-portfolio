@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1>Stuff</h1>
+    <h1>Projects</h1>
 
-    <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+    <div class="paragraph" style="margin-bottom: 30px;">
+      The following are some projects I've made or heavily contributed to. They range from games to be released, to games created during jams, game engines and even other design stuff.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
 
-    <div style="margin-top: 20px;">
-      There is more to see on <a target="_blank" href="https://someexternalwebsite.com">some external website</a>
+    <div style="margin-top: 20px; margin-bottom: 20px;">
+      There is more to see on my <a target="_blank" href="https://chiefbat.itch.io/">itch.io</a> and <a target="_blank" href="https://github.com/fallenatlas">github</a>.
     </div>
   </div>
 </template>
@@ -31,3 +31,9 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+.paragraph {
+  max-width: 1050px;
+}
+</style>

@@ -4,13 +4,14 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Tiago Antunes</strong>, an aspiring game developer.<br/>
+        I'm passionate about games both from a engineering standpoint, as well as the experience they bring to players. I love discussing, designing and developing games, as well as other apps in general.<br/>
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I'm currently in the final year of my Master's Degree in Computer Science and Engineering with a specialization in Games and Interaction and Visualization.<br/>
+        During this time, I've worked on some <router-link to="/game-projects">projects</router-link>.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>looking for an internship</strong> as a Game or Engine Programmer. You can find my contacts <router-link to="/contact">here</router-link>.</div>
     </div>
 
     <div class="photo">
@@ -24,7 +25,7 @@
 
 <style scoped>
 .paragraph {
-  max-width: 700px;
+  max-width: 730px;
   margin-bottom: 20px;
 }
 
@@ -42,6 +43,8 @@
     float: left;
     padding: 10px;
     padding-left: 80px;
+    margin-top: 0px;
+    padding-bottom: 120px;
   }
 }
 

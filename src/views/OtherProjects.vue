@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Gallery</h1>
 
-    <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+    <div class="paragraph" style="margin-bottom: 30px;">
+      And here are some visual works that I've produced. Most are photographs from trips I've taken, or from day to day life, but I also have some design and composite work.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
@@ -26,3 +26,9 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+.paragraph {
+  max-width: 1050px;
+}
+</style>
