@@ -33,7 +33,7 @@
       <div><br/><Strong>Cubos Engine</Strong>: Working on and leading a team of 3 through building the collisions and physics from the ground up. Represented Cubos at DevGamm Lisbon 2023.
       </div>
       <div class="tech-stack">C++, Git, Math, Physics, OpenGL</div>
-      <div><br/><Strong>Star Project</Strong>: Up-and-coming fast paced 2D top-down roguelite in Godot. Working with a multidisciplinary team as a programmer and designer. Programmed player controls (movement, aiming), combat mechanics and UI.</div>
+      <div><br/><Strong>Project Star</Strong>: Up-and-coming fast paced 2D top-down roguelite in Godot. Working with a multidisciplinary team as a programmer and designer. Programmed player controls (movement, aiming), combat mechanics and UI.</div>
       <div class="tech-stack">Godot, GDScript, Git, Miro</div>
       </div>
 
@@ -76,10 +76,6 @@
       
       <div style="clear:both" />
 
-
-
-
-
       <h2>Education</h2>
 
       <h3>Master's Degree in Computer Science and Engineering</h3>
@@ -90,6 +86,12 @@
       <h4>Instituto Superior Técnico, September 2020 - July 2023</h4>
       <div></div>
 
+      <h2>Activities</h2>
+
+      <h3>Swimming</h3>
+      <h4>September 2014 - June 2018</h4>
+      <div>Trained Swimming during my lower secondary education (was around 12-16 years old).</div>
+
       <h2>Languages</h2>
 
       <h3>English</h3>
@@ -97,7 +99,6 @@
 
       <h3>Portuguese</h3>
       <div>My mother tongue.</div>
-
 
       <h2>Besides...</h2>
       <div>
@@ -107,7 +108,7 @@
         </div>
 
         <h3>I 🧡 Visual Stories</h3>
-        <div>Whether it be in movies, TV shows, Anime, or in Photos, I love a good story.</div>
+        <div>Whether it be in movies, TV shows, Anime, or in Photos, I love a good story with good visuals.</div>
 
         <h3>I 💛 Photography</h3>
         <div>I love to capture the little moments I see.</div>

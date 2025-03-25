@@ -57,37 +57,15 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/yldRod0gdE0" frameborder="0" allowfullscreen></iframe>
     </div>`, "#23bd69", true, true),
-    new ProjectData("project-2", "Star Project", "img/projects/project-2-icon.png", `
+    new ProjectData("project-2", "Project Star", "img/projects/star.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+        Up-and-coming fast paced 2D top-down roguelite in Godot. <br/>
+        Our team is multidisciplinary, with artists, sound makers, designers and programmers.
+        <br/>
+        <br/>
+        I'm working as a programmer and designer. So far, in terms of programming I've worked on player controls (movement, aiming), combat mechanics and UI.
+        <br/>
+        <br/> I'll share more when we're ready :)
     </div>
     `, "#5a78af"),
     new ProjectData("project-3", "Bubble Up", "img/projects/project-3-icon.png", `
@@ -143,7 +121,7 @@ export default [
     </div>
     
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/gTWFk3XGgc0" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
