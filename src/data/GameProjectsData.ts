@@ -175,8 +175,8 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="/img/projects/immortal_img1.png" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/immortal_img2.png" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="img/projects/immortal_img1.png" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="img/projects/immortal_img2.png" alt="Eugeneable Screenshot" />
     </div>
     `, "#e80fb7", false, true),
     new ProjectData("project-5", "C++/OpenGL Apps", "img/projects/shadertoy.png", `
@@ -241,8 +241,8 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="/img/projects/avt.png" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/avt_texture.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/avt.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/avt_texture.png" alt="Cloud Drew Land Screenshot" />
     </div>`, "#e48246", false, true),
     new ProjectData("project-5", "Assistander", "img/projects/Assistander.png", `
     <div class="paragraph">
@@ -259,8 +259,8 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="/img/projects/flamy1.png" alt="The Art of Walking Screenshot" />
-        <img class="phone-screenshot" src="/img/projects/flamy2.png" alt="The Art of Walking Screenshot" />
+        <img class="phone-screenshot" src="img/projects/flamy1.png" alt="The Art of Walking Screenshot" />
+        <img class="phone-screenshot" src="img/projects/flamy2.png" alt="The Art of Walking Screenshot" />
     </div>
 
     <div class="paragraph">
@@ -291,8 +291,8 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="/img/projects/pingu1.png" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/pingu2.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/pingu1.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/pingu2.png" alt="Cloud Drew Land Screenshot" />
     </div>
 
     <div class="paragraph">
