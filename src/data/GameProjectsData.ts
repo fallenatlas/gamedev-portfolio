@@ -131,7 +131,7 @@ export default [
     </div>
     
     <div class="paragraph">
-        This project was a great way to learn about the overall development process of a game. The feedback we got from professionals who tested our prototype was also very educational, and brought attention to important details I had never though of before, such as attack combos and timings. Our team also worked alongside a audio student from another school who produced the sounds for the game, aswell as two writers from another school as well. It was very challenging, given we had just 2 months, but it was very fullfilling, and we were proud of how it turned out.
+        This project was a great way to learn about the overall development process of a game. The feedback we got from professionals who tested our prototype was also very educational, and brought attention to important details I had never though of before, such as attack combos and timings. Additionally, our team worked alongside an audio student from another school, who produced the sounds for the game, and two writers from another school as well. It was very challenging, given we had just 2 months, but it was very fullfilling, and we were proud of how it turned out.
     </div>
 
     <div class="paragraph">
