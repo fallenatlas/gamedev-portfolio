@@ -3,24 +3,21 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Tiago Antunes</strong>, a Computer Science and Engineering student, currently in my Master's degree at Instituto Superior Técnico.
+      <br />During my Master's, I've specialized in Games and Interaction and Visualization, undertaking courses like Game Design, Game Development Methodology and Studio of Design and Interaction. I've also done some courses related to AI and Multimedia.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
+      <br />Since 2022, I've been part of <a href="https://gamedev.tecnico.ulisboa.pt/" target="_blank">GameDev Técnico</a>, a student association focused on game development. In this environment I have participated both in game jams and internal game projects.
+      <br />My experience regarding game development is mainly with Unity (C#) and Godot, but also with some experience in Unreal Engine 5.
+      <br />
+      <br />Besides development, I'm passionate about video games, and I love photography, and exploring real the world.
+      <br />
+      <br />I'm looking for an internship in the games industry as a Game Programmer or Engine Programmer, so if you have any opportunities feel free to 
       <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download CV</a>
         <div style="clear:both"></div>
       </div>
-    </div>
-    <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,77 +25,95 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>GameDev Técnico</h3>
+      <h4>December 2022 - Present</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Participated in multiple game jams, using different engines and tools, and working with diverse teams. Currently working on multiple internal projects.
+      
+      <div><br/><Strong>Cubos Engine</Strong>: Working on and leading a team of 3 through building the collisions and physics from the ground up. Represented Cubos at DevGamm Lisbon 2023.
+      </div>
+      <div class="tech-stack">C++, Git, Math, Physics, OpenGL</div>
+      <div><br/><Strong>Star Project</Strong>: Up-and-coming fast paced 2D top-down roguelite in Godot. Working with a multidisciplinary team as a programmer and designer. Programmed player controls (movement, aiming), combat mechanics and UI.</div>
+      <div class="tech-stack">Godot, GDScript, Git, Miro</div>
+      </div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>INESC-ID</h3>
+      <h4>September 2024 - Present</h4>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div>Internship for my Thesis.</div>
 
       <h2>Skills</h2>
 
-      <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+      <div class="skills">
+        <ul>
+          <div class="column">
+              <h3>Languages</h3>
+              <li>C++</li>
+              <li>C</li>
+              <li>C#</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>GLSL</li>
+          </div>
+          <div class="column">
+              <h3>Gamedev Tools</h3>
+              <li>Unity</li>
+              <li>Godot</li>
+              <li>Unreal Engine 5</li>
+              <li>Aseprite</li>
+          </div>
+          <div class="column">
+              <h3>Tools & Software</h3>
+              <li>Git</li>
+              <li>Miro</li>
+              <li>Figma</li>
+              <li>Adobe Photoshop</li>
+          </div>
+      </ul>
       </div>
       <div style="clear:both" />
 
+      
+      <div style="clear:both" />
+
+
+
+
+
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Master's Degree in Computer Science and Engineering</h3>
+      <h4>Instituto Superior Técnico, September 2023 - November 2025</h4>
+      <div>Specialized in Games and Interaction and Visualization with complementary courses in Artificial Inteligence.</div>
+
+      <h3>Bachelor's Degree in Computer Science and Engineering</h3>
+      <h4>Instituto Superior Técnico, September 2020 - July 2023</h4>
+      <div></div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>English</h3>
+      <div>Fluent English, with a fantastic Portuguese accent.</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>Portuguese</h3>
+      <div>My mother tongue.</div>
 
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Video Games</h3>
+        <div>My go to games are usually fast paced shooters, like Titanfall, Vanquish or Ultrakill, but I enjoy playing basically any genre of game.
+          <br/>I love playing them, watching them, talking about them, studying them, watching studies about them, designing them...
+        </div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Visual Stories</h3>
+        <div>Whether it be in movies, TV shows, Anime, or in Photos, I love a good story.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 💛 Photography</h3>
+        <div>I love to capture the little moments I see.</div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I 💚 Exploring the World</h3>
+        <div>So far I've visited most of Portugal and Spain. Hopefully, the list will grow :) <br/><br/></div>
 
       </div>
     </div>
@@ -107,13 +122,9 @@
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
 
 export default Vue.extend({
   name: "Resume",
-  components: {
-    SkillRate,
-  },
 });
 </script>
 
@@ -142,7 +153,7 @@ h4 {
 }
 
 .paragraph {
-  max-width: 640px;
+  max-width: 1050px;
 }
 
 .download-link {
@@ -151,7 +162,7 @@ h4 {
 }
 
 .full-content div {
-  max-width: 800px;
+  max-width: 1050px;
 }
 
 .skill-set h3 {
@@ -170,6 +181,41 @@ h4 {
 .photo {
   margin-top: 50px;
   text-align: center;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 40px;
+    margin-left: -40px;
+    display: grid; 
+    list-style: none; /* Remove default list style */
+}
+
+.column h3{
+    font-weight: normal;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.column ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    display: grid; 
+    list-style: none; /* Remove default list style */
+}
+
+.column li {
+    background-color: transparent; /* Box background color */
+    border: #259dc5 2px solid; /* Add a border to the box */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Adjust font size */
+    text-align: center; /* Center the text */
+    margin-top: 15px;
 }
 
 @media only screen and (min-width: 620px){

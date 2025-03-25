@@ -2,13 +2,12 @@
   <div class="header">
     <div style="display: table-row">
       <div style="display: table-row">
-        <div class="logo"><img src="img/ta1w-small-sharp.png" alt="Avatar of John"/></div>
+        <div class="logo"><img src="img/ta1w-small-sharp.png" alt="Signature of Tiago"/></div>
         <div class="logo-name">Tiago Antunes</div>
       </div>
       <div class="nav-bar">
         <router-link to="/">About me</router-link>
         <router-link to="/game-projects">Projects</router-link>
-        <router-link to="/other-projects">Gallery</router-link>
         <router-link to="/resume">Resume</router-link>
         <router-link to="/contact">Contact</router-link>
       </div>
@@ -73,7 +72,6 @@ export default Vue.extend({
   line-height: 2em;
   display: table-cell;
   vertical-align: middle;
-  font-family: 'Papyrus';
 }
 
 .nav-bar {

@@ -53,7 +53,10 @@ export default [
         <li>Open Source (created for the gamedev community!).</li>
         </ul>
     </div>
-    `, "#23bd69", true, true),
+
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/yldRod0gdE0" frameborder="0" allowfullscreen></iframe>
+    </div>`, "#23bd69", true, true),
     new ProjectData("project-2", "Star Project", "img/projects/project-2-icon.png", `
     <div class="paragraph">
         <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
@@ -93,7 +96,7 @@ export default [
         <br/>This game was developed for the Global Game Jam 2025.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/n728TdZifWo" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -104,7 +107,10 @@ export default [
     </div>
 
     <div class="paragraph">
-        <strong>Say the main things we learned: infinite map, enemy design, level design, camera, efficient teamwork</strong>
+        This game was the first time I attempted to create an infinite level, and had to do the entire design of each section so that they fit each other and didn't feel very repetitive. 
+        I also challenged myself to implement the enemies instead of the player character.
+        Additionally, I tried to make the experience a bit more cinematic and smooth, which includes the black silhouette shader when the player is about to die, the starting menu which presents the setting while allowing the player to learn the movement before starting, as well as the oxygen indicator that moves with the player, akin to how the information is presented to the player in Dead Space for example.
+        Overall, I learned many new interesting techniques, and worked efficiently with a great team to produce this game.
     </div>
 
     <div class="paragraph">
@@ -126,10 +132,8 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/by_menu.png" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/bu_play.png" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838"),
     new ProjectData("project-4", "ImMortal Journey", "img/projects/project-4-icon.jpg", `
@@ -149,9 +153,7 @@ export default [
     </div>
     
     <div class="paragraph">
-        <strong>Say the main things we learned</strong>. Our team also worked alongside a audio student from another school who produced the sounds for the game.
-
-This was my first dive into a full development of a bigger game in a short time frame, which was very challenging, working with a multidisciplinary team.
+        This project was a great way to learn about the overall development process of a game. The feedback we got from professionals who tested our prototype was also very educational, and brought attention to important details I had never though of before, such as attack combos and timings. Our team also worked alongside a audio student from another school who produced the sounds for the game. It was very challenging, given we had just 2 months, but it was very fullfilling, and we were pround of how it turned out.
     </div>
 
     <div class="paragraph">
@@ -173,8 +175,8 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/immortal_img1.png" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/immortal_img2.png" alt="Eugeneable Screenshot" />
     </div>
     `, "#e80fb7", false, true),
     new ProjectData("project-5", "C++/OpenGL Apps", "img/projects/shadertoy.png", `
@@ -183,7 +185,7 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph">
-    Main features :
+    <strong>Main features:</strong>
     <ul>
         <li>Realistic lighting (Blinn-Phong model).</li>
         <li>Procedurally generated textures (3D) of marble and wood using perling noise.</li>
@@ -196,11 +198,11 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/7ym0Qz1uUP4" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph center">
-        <a href="https://github.com/GameDevTecnico/cubos" target="_blank">Source Code on Github</a>
+        <a href="https://github.com/fallenatlas/IndividualProject.CGJ_23-24" target="_blank">Source Code on Github</a>
     </div>
 
     <div class="paragraph">
@@ -208,8 +210,7 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
     
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/opengl.png" alt="Cloud Drew Land Screenshot" />
     </div>
     
     <div class="paragraph">
@@ -217,7 +218,7 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph">
-        My Contributions:
+        <strong>My Contributions:</strong>
         <ul>
         <li>Boat movement.</li>
         <li>Cameras.</li>
@@ -228,11 +229,11 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/8TA5x-psQdw" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph center">
-        <a href="https://github.com/GameDevTecnico/cubos" target="_blank">Source Code on Github</a>
+        <a href="https://github.com/fallenatlas/AVT_Project" target="_blank">Source Code on Github</a>
     </div>
 
     <div class="paragraph">
@@ -240,8 +241,8 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/avt.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/avt_texture.png" alt="Cloud Drew Land Screenshot" />
     </div>`, "#e48246", false, true),
     new ProjectData("project-5", "Assistander", "img/projects/Assistander.png", `
     <div class="paragraph">
@@ -257,6 +258,11 @@ This was my first dive into a full development of a bigger game in a short time 
         My main contributions were, user research, organising feedback and designing and building the figma prototypes.
     </div>
 
+    <div class="paragraph center">
+        <img class="phone-screenshot" src="/img/projects/flamy1.png" alt="The Art of Walking Screenshot" />
+        <img class="phone-screenshot" src="/img/projects/flamy2.png" alt="The Art of Walking Screenshot" />
+    </div>
+
     <div class="paragraph">
         <div class="notice">
         Available on <a href="https://www.figma.com/proto/meuIV7BFqZSioRLSqEh1X1/CCU-%E2%80%A2-SantanderAssistant?node-id=210-2408&starting-point-node-id=210%3A2408&t=Dh55e9b8uiaJCcQS-1" target="_blank">Figma</a>.
@@ -268,17 +274,12 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
     
     <div class="paragraph">
-        Main features :
+        <strong>Main features:</strong>
         <ul>
         <li>Flamy: An AI assistant that adapts to your needs, and with whom you can chat.</li>
         <li>Clear Interface: Have all your finantial information and goals at your fingertips.</li>
         <li>Personalized Finantial News: Flamy will select the most recent finantial news that might interest you.</li>
         </ul>
-    </div>
-
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
     </div>`, "#f01c02"),
     new ProjectData("project-5", "Colorblind children app", "img/projects/pingu.png", `
     <div class="paragraph">
@@ -290,8 +291,8 @@ This was my first dive into a full development of a bigger game in a short time 
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/pingu1.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/pingu2.png" alt="Cloud Drew Land Screenshot" />
     </div>
 
     <div class="paragraph">
