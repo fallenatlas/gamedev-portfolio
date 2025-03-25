@@ -3,7 +3,7 @@
     <h1>Projects</h1>
 
     <div class="paragraph" style="margin-bottom: 30px;">
-      The following are some projects I've made or heavily contributed to. They range from games to be released, to games created during jams, game engines and even other design stuff.
+      The following are some projects I've made or heavily contributed to. They range from game engines, to games to be released, games created during jams and even other design stuff.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
