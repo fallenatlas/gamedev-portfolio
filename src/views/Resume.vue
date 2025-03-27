@@ -15,7 +15,7 @@
       <router-link to="/contact">contact me</router-link>.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download CV</a>
+        <a class="download-link" href="d/TiagoAntunes_CV.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download CV</a>
         <div style="clear:both"></div>
       </div>
     </div>
@@ -108,7 +108,8 @@
         </div>
 
         <h3>I 🧡 Visual Stories</h3>
-        <div>Whether it be in movies, TV shows, Anime, or in Photos, I love a good story with good visuals.</div>
+        <div>Whether it be in movies, TV shows, Anime, or in Photos, I love a good story with good visuals.
+        </div>
 
         <h3>I 💛 Photography</h3>
         <div>I love to capture the little moments I see.</div>
