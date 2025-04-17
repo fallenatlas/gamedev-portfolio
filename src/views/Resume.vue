@@ -7,11 +7,11 @@
       <br />During my Master's, I've specialized in Games and Interaction and Visualization, undertaking courses like Game Design, Game Development Methodology and Studio of Design and Interaction. I've also done some courses related to AI and Multimedia.
       <br />
       <br />Since 2022, I've been part of <a href="https://gamedev.tecnico.ulisboa.pt/" target="_blank">GameDev Técnico</a>, a student association focused on game development. In this environment I have participated both in game jams and internal game projects.
-      <br />My experience regarding game development is mainly with Unity (C#) and Godot, but also with some experience in Unreal Engine 5.
+      <br />I'm quite versatile when it comes to game engines. I have experience in Cubos (C++), which I'm also developing, Unity (C#), Godot (GDScript), and Unreal Engine 5 (C++/Blueprints).
       <br />
       <br />Besides development, I'm passionate about video games, and I love photography, and exploring real the world.
       <br />
-      <br />I'm looking for an internship in the games industry as a Game Programmer or Engine Programmer, so if you have any opportunities feel free to 
+      <br />I'm looking for a job in the games industry as a Game Programmer or Engine Programmer, so if you have any opportunities feel free to 
       <router-link to="/contact">contact me</router-link>.
 
       <div style="margin-top:20px; margin-bottom:20px;">

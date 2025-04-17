@@ -23,6 +23,10 @@
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
         <a href="https://chiefbat.itch.io/" target="_blank">itch.io</a>
       </li>
+      <li>
+        <i class="fa fa-instagram fa-lg fa-fw"></i>
+        <a href="https://www.instagram.com/_fallenatlas_/" target="_blank">Instagram</a>
+      </li>
     </ul>
   <br/>
   <br/>

@@ -11,12 +11,14 @@
       <div style="margin-top: 20px;">I'm currently in the final year of my Master's Degree in Computer Science and Engineering with a specialization in Games and Interaction and Visualization.<br/>
         During this time, I've worked on some <router-link to="/game-projects">projects</router-link>.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>looking for an internship</strong> as a Game or Engine Programmer. You can find my contacts <router-link to="/contact">here</router-link>.
-      <br/>
-      <br/>
+      <div style="margin-top: 40px;">I'm <strong>looking for an job</strong> as a software engineer, and would love to work as a Game or Engine Programmer. You can find my contacts <router-link to="/contact">here</router-link>.
       <br/>
     </div>
     </div>
+
+    <div class="photo">
+       <img src="img/me_image.png" alt="Me Photo" /> 
+     </div>
 
     <div style="clear:both"></div>
 
@@ -26,11 +28,13 @@
 
 <style scoped>
 .paragraph {
-  max-width: 1050px;
+  max-width: 730px;
   margin-bottom: 20px;
 }
 
 .photo {
+  width: 224px;
+  height: 224px;
   margin-top: 50px;
   text-align: center;
 }

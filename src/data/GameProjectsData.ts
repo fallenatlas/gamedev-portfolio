@@ -57,17 +57,44 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/yldRod0gdE0" frameborder="0" allowfullscreen></iframe>
     </div>`, "#23bd69", true, true),
-    new ProjectData("project-2", "Project Star", "img/projects/star.png", `
-    <div class="paragraph">
-        Up-and-coming fast paced 2D top-down roguelite in Godot. <br/>
-        Our team is multidisciplinary, with artists, sound makers, designers and programmers.
-        <br/>
-        <br/>
-        I'm working as a programmer and designer. So far, in terms of programming I've worked on player controls (movement, aiming), combat mechanics and UI.
-        <br/>
-        <br/> I'll share more when we're ready :)
-    </div>
-    `, "#5a78af"),
+    new ProjectData("project-4", "Sleep&Eat", "img/projects/Sleep&Eat-icon.png", `
+        <div class="paragraph">
+        In this cooperative game, one player will play as Sleep and the other as Eat. Together, they must solve 7 mind-bending puzzle-platformer levels where their special abilities of sleeping and eating are the key to success!
+        <br/>This game was a submission to Nordic Game Jam 2025, where the theme was Sleep <strong>or</strong> Eat, so we went with both, because why not.
+        </div>
+
+        <div class="paragraph center">
+            <img class="pc-screenshot" src="img/projects/sleep_eat_capture_2.png" alt="Eugeneable Screenshot" />
+            <img class="pc-screenshot" src="img/projects/sleep_eat_capture_1.png" alt="Eugeneable Screenshot" />
+        </div>
+    
+        <div class="paragraph">
+            <div class="notice">
+            Playable in browser (WebGL) on <a href="https://chiefbat.itch.io/sleepeat" target="_blank">itch.io</a>. Source code is available on <a href="https://github.com/xhmueel/EatAndSleep" target="_blank">GitHub</a>.
+            </div>
+        </div>
+        
+        <div class="paragraph">
+            The whole background behind the making of this game was an experience, as it was our first time in Denmark and in Nordic Jam. Personally, I leaned a bit more into Level Design as our game was a puzzle platformer, and it's always hard to make many maps in very short time. The feedback on the maps I did was surprisingly positive, showing I've been evolving on this aspect. Programming wise, I honed my skills in gameplay mechanics and other core features, such as resetting and moving to the next level. Although this is not a competitive Jam, our game sits as the second most popular game from this edition, and we had plenty of people enjoying it, which we were very happy with. 
+        </div>
+    
+        <div class="paragraph">
+            <strong>My contributions:</strong>
+            <ul>
+            <li>Design: Fully Designed and Implemented the first 5 levels, Gameplay Elements, Gameplay Loop.</li>
+            <li>Programming: Player Movement, Sleeping Mechanic, and other core functionality.</li>
+            </ul>
+        </div>
+    
+        <div class="paragraph">
+            <strong>Main features:</strong>
+            <ul>
+            <li>Psychedelic Visuals: a mix of different art styles of our artists, complementing the duality of eat and sleep.</li>
+            <li>Cooperative Puzzles: join forces to complete 7 challenging platforming puzzles.</li>
+            <li>Fun Mechanics: not only are they a core part of the puzzles, as they also allow you to annoy your adventure partner :)</li>
+            </ul>
+        </div>
+    `, "#eb803d"),
     new ProjectData("project-3", "Bubble Up", "img/projects/project-3-icon.png", `
     <div class="paragraph">
         After an accident, a squirrel finds itself stranded at the bottom of the ocean. Now, it must find a way to escape and reach the surface before running out of air. To do so, it must navigate through treacherous underwater environments, dodge dangerous sea creatures and search for oxygen sources to avoid suffocating.
@@ -222,6 +249,17 @@ export default [
         <img class="pc-screenshot" src="img/projects/avt.png" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/avt_texture.png" alt="Cloud Drew Land Screenshot" />
     </div>`, "#e48246", false, true),
+    new ProjectData("project-2", "Project Star", "img/projects/star.png", `
+        <div class="paragraph">
+            Up-and-coming fast paced 2D top-down roguelite in Godot. <br/>
+            Our team is multidisciplinary, with artists, sound makers, designers and programmers.
+            <br/>
+            <br/>
+            I'm working as a programmer and designer. So far, in terms of programming I've worked on player controls (movement, aiming), combat mechanics and UI.
+            <br/>
+            <br/> I'll share more when we're ready :)
+        </div>
+    `, "#5a78af"),
     new ProjectData("project-5", "Assistander", "img/projects/Assistander.png", `
     <div class="paragraph">
         This prototype is a finantial advice app for young adults, that is designed mainly to be accessed on smartphones.</br>
